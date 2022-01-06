@@ -105,7 +105,7 @@ nav :hover{
     line-height: 30px;
 }
 .itens::before{ 
-    content: '\1F5E1';
+    content: '\272F';
 }
 
 /*imagem*/
