@@ -45,6 +45,12 @@ nav :hover{
     width: 140px;
     float: left;
     margin: 0 20px 20px 0;
+    opacity: 0.3;
+    transition: 1s;
+}
+
+.utensilios:hover{
+    opacity: 1;
 }
 
 /*Titulo Valores - Beneficios*/
@@ -61,8 +67,13 @@ nav :hover{
     text-align: center;
     font-size: 3em;/*Duas vezes o valor do pixel texto padrão*/
     margin: 0 0 1em;
+    color: (0,0,0,0);
+    opacity: 0.3;
+    transition: 1s;
 }
-
+.titulo-Principal:hover{
+    opacity: 1;
+}
 
 /*Texto Valores*/
 .Principal p{
@@ -99,10 +110,16 @@ nav :hover{
     width: 40%;
     display: inline-block;
     vertical-align: top;
-    font: linear
+    font: linear;
 }
-.itens{
-    line-height: 30px;
+
+.itens:hover{
+    color:#333121
+}
+
+.itens{    
+    transition: 80ms;
+    line-height: 25px;
 }
 .itens::before{ 
     content: '\272F';
@@ -111,6 +128,14 @@ nav :hover{
 /*imagem*/
 .Imagem-Beneficios {
 	width: 60%;
+    opacity: 0.3;
+    transition: 1s;
+    box-shadow: 10px 10px 20px #000000;
+}
+
+.Imagem-Beneficios:hover{
+    opacity: 1;
+
 }
 /*Video*/
 .Video{
@@ -145,4 +170,10 @@ footer{
     color: #ffffff;
     font-size: 10px;
     margin: 20px;
+}
+
+@media screen and (max-whidth: 480px){
+    body{
+        background: rgb(236, 45, 45);
+    }
 }
