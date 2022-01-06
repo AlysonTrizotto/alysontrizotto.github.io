@@ -1,0 +1,148 @@
+body{
+font-family: 'Montserrat', sans-serif;
+}
+/*CSS Menu*/
+header{
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+ 
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font: 22px;
+    text-decoration: none;
+}
+nav :hover{
+    color: #C19C19;
+    text-decoration: underline;
+}
+
+
+ /*Banner, Beneficios e valores*/
+.banner{
+    width: 100%;
+}
+
+.utensilios{
+    width: 140px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+/*Titulo Valores - Beneficios*/
+.Principal{
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-Principal {
+    clear: left;
+	padding-left: 20px;
+    text-align: center;
+    font-size: 3em;/*Duas vezes o valor do pixel texto padrão*/
+    margin: 0 0 1em;
+}
+
+
+/*Texto Valores*/
+.Principal p{
+    margin: 0 0 1em;/*em é o valor do pixel*/
+    font-size: 18px;
+    text-indent: 50px;
+}
+
+.Principal strong{
+    font-weight: bold;
+}
+
+.Principal em{
+    font-style: italic;
+}
+
+/*Topicos dos beneficios*/
+/*Acima do titulo*/
+.beneficios {
+	background: #888888;
+    padding: 3em 0;
+}
+/*Abaixo do titulo*/
+.Conteudo-Beneficios{
+    width: 640px;
+    margin: 0 auto;  
+    width: 940px;
+    margin: 0 auto; 
+}
+/*Listas*/
+.Lista-Beneficios{
+    font-style: italic;
+    font-size: 20px;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    font: linear
+}
+.itens{
+    line-height: 30px;
+}
+.itens::before{ 
+    content: '\1F5E1';
+}
+
+/*imagem*/
+.Imagem-Beneficios {
+	width: 60%;
+}
+/*Video*/
+.Video{
+    width: 560px;
+    margin: 2em auto;
+}
+/*Topico de localização -- Mapa*/
+/*Acima do titulo*/
+.Mapa{
+       padding: 3em 0;
+       background: linear-gradient(#fefefe,#888888);
+}
+/*Paragrafo*/
+.Mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+    font-size: 22px;
+}
+
+.Mapa-conteudo{
+    width: 940px;
+    margin: 0 auto; 
+}
+/*Topico roda-pé*/
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.Copyright{
+    color: #ffffff;
+    font-size: 10px;
+    margin: 20px;
+}
