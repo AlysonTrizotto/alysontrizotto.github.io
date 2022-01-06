@@ -1,5 +1,6 @@
+
 body{
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 /*CSS Menu*/
 header{
@@ -172,8 +173,23 @@ footer{
     margin: 20px;
 }
 
-@media screen and (max-whidth: 480px){
-    body{
-        background: rgb(236, 45, 45);
+@media screen and (max-width: 480px) { 
+    .caixa, .Principal, .Conteudo-Beneficios, .Mapa-conteudo, .Video {
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .Lista-Beneficios, .Imagem-Beneficios{
+        width: 100%;
+    }
+    .titulo-Principal{
+        font-size: 2em;
+    }
+    .logo{
+        width: auto;
     }
 }
