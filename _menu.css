@@ -1,0 +1,42 @@
+.menu_lateral{
+    display: block;
+    flex-direction: column;
+    align-self: center;
+    background-color: #15191C;
+    width: 75vw;
+    height: 100vh;
+
+    position: absolute;
+    left: -100vw;
+    top: 7vh;
+
+    transition: 1s;    
+}
+
+.menu_lateral--ativo{
+    left: 0;
+    transition: 1s;    
+}
+
+
+.menu_lateral__link{
+    height: 40px;
+    color: #254053;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.menu_lateral__link--ativo{
+    color:#FFFFFF ;
+    padding-left: 8px;
+    border-left: 8px solid #FFFFFF;
+}
+
+.menu_lateral__link::before{
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    position: absolute;
+    left: 24px;
+}
