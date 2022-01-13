@@ -1,97 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Início - Barbearia Edwards</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="Inicio.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Alyson</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+       
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="/assets/css/componentes/cartao.css">
+    <link rel="stylesheet" href="/assets/css/componentes/rodape.css">
 </head>
 <body>
-    <header> 
-        <div class="caixa">
-            <img class="Logo" src="logo.png" alt="Logo da Barbearia alura">
-            <nav>
-                <ul>
-                    <li><a href="index.html" >Home</a></li>
-                    <li><a href="produtos.html">Produtos</a></li>
-                    <li><a href="Contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="container">   
+        <img src="/assets/imagens/menu.svg" alt="Menu" class="menu_pontilhado">
+        <h1 class="titulo titulo__cabecalho">Alyson Leandro</h1>
+       
+        <nav class="menu_lateral menu_lateral-posicao">
+            <ul>                
+                <li class="titulo__lista-nav menu_lateral__link menu_lateral--ativo">Problemas Solucionados</li>
+                <li class="titulo__lista-nav menu_lateral__link">Sobre</li>
+                <li class="titulo__lista-nav menu_lateral__link">Contato</li>
+            </ul>
             
+        </nav>
+
+        
     </header>
-    <img class="banner" src="banner.jpg" alt="Baneer barbearia Edwards">
-    <main class="centralizacao-main">
-
-        <section class="Principal">
-			<h2 class="titulo-Principal">Sobre a Barbearia Alura</h2>
-            
-            <img class="utensilios" src="utensilios.jpg" alt="Ilustração de utensilios">
-
-			<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> 
-                traz para o mercado o que há de melhor para o seu cabelo e barba. 
-                Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista 
-                novos clientes a cada dia.</p>
-
-			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e 
-                qualidade de vida aos clientes"</strong>.</em></p>
-
-			<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da 
-                moda. O atendimento possui padrão de excelência e agilidade, garantindo 
-                qualidade e satisfação dos nossos clientes.</p>
-		</section>
-        <section class="Mapa">
-            <div class="Mapa-conteudo">
-                <h3 class="titulo-Principal">Nosso estabelecimento</h3>
-                <p>Nosso estabelecimento está localizado no coração da cidade</p>
+    
+    <main>
+        <section class="container__cartao">
+            <h1 class="container__titulo">Projetos e soluções</h1>
+            <p class="container__texto">
+                Aqui contem alguns projetos que desenvolvi. 
+                Alguns foram desenvolvido sob encomenda, 
+                outros eu decidi me desafiar.
+            </p>
+            <article class="cartao">
+                <h2 class="cartao__titulo">Gestão de Pizzaria</h2>
+                <p class="cartao__texto">Como foi feito - Oque contém:</p>
                 
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.7662069357953!2d-49.165439784984194!3d-25.512842583750402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcf12024cc7771%3A0x9a91894a125def72!2sBarbearia%20Edwards!5e0!3m2!1spt-BR!2sbr!4v1641479831028!5m2!1spt-BR!2sbr"
-                    width="100%" 
-                    height="300" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy">
-            </iframe>
-            </div>
-        </section>
-        
-		<section class="beneficios">
-			<h3 class="titulo-Principal">Benefícios</h3>
-            <div class="Conteudo-Beneficios">
-                <ul class="Lista-Beneficios">
-                    <li class="itens">Encantar nossos Clientes</li>
-                    <li class="itens">Espaço diferenciado</li>
-                    <li class="itens">Localização</li>
-                    <li class="itens">Pontualidade</li>
-                    <li class="itens">Limpeza</li>
-                    <li class="itens">Profissionais Qualificados</li>
-                </ul><img src="beneficios.jpg" class="Imagem-Beneficios">
-            </div>
-        
-
-            <section class="Video">
+                <a href="https://github.com/AlysonTrizotto/AlysonTrizotto" target="_blank"  class="cartao_ver-projeto ver">
+                    Ver projeto no github 
+                    <img src="/assets/imagens/github.svg" alt="Ícone Github" class="ver cartao_projeto-github">
+                </a>               
                 
-                <iframe 
-                    width="100%" 
-                    height="315" 
-                    src="https://www.youtube.com/embed/wcVVXUV0YUY" 
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
-            </section>
+                <ul class="cartão__lista">
+                    <li>Data base in cloud</li>
+                    <li>Desenvolvimento c# POO</li>
+                    <li>Restrição de acesso por hierarquia</li>
+                    <li>Impressão de dados com c#</li>
+                    <li>C# com PostgreSQL</li>
+                    <li>Controle de comandas por status</li>
+                </ul>
+            </article>
+            <article class="cartao">
+                <h2 class="cartao__titulo">Extrator de tabela PDF</h2>
+                <p class="cartao__texto">Como foi feito - Oque contém:</p>
+                
+                <a href="https://github.com/AlysonTrizotto/ExtratorTextoPDF_ConversorCSV/tree/main/Extracao" target="_blank"  class="cartao_ver-projeto ver">
+                    Ver projeto no github 
+                    <img src="/assets/imagens/github.svg" alt="Ícone Github" class="ver cartao_projeto-github">
+                </a>               
+                
+                <ul class="cartão__lista">
+                    <li>Desenvolvido em Java</li>
+                    <li>Java POO</li>
+                    <li>Maven</li>
+                    <li>I/O</li>
+                    <li>leitura de pdf por área</li>
+                    <li>Lieitura e escrita bits para 'zipar' o arquivo</li>
+                    <li>PDFbox</li>
+                    <li>Escrita de documento CSV</li>
+                    <li>Manipulação de diretório</li>
+                </ul>
+            </article>
+            <article class="cartao">
+                <h2 class="cartao__titulo">Banco de dados</h2>
+                <p class="cartao__texto">Como foi feito - Oque contém:</p>
+                
+                <a href="https://github.com/AlysonTrizotto/ExtratorTextoPDF_ConversorCSV/tree/main/PostgreSQL" target="_blank"  class="cartao_ver-projeto ver">
+                    Ver projeto no github 
+                    <img src="/assets/imagens/github.svg" alt="icone github" class="ver cartao_projeto-github">
+                </a>               
+                
+                <ul class="cartão__lista">
+                    <li>PostgreSQL</li>
+                    <li>Importação de dados</li>
+                    <li>Select com subquery</li>
+                    <li>Ordenação de dados</li>
+                    <li>Agrupamento de dados</li>                   
+                </ul>
+            </article>
+            <article class="cartao">
+                <h2 class="cartao__titulo">Em construção</h2>
+                <p class="cartao__texto">Como foi feito - Oque contém:</p>
+                
+                <a href="https://github.com/AlysonTrizotto/GerenciaOficinaMecanica/tree/main/Gerencia%20Oficina/GerenciaOficina" target="_blank"  class="cartao_ver-projeto ver">
+                    Ver projeto no github 
+                    <img src="/assets/imagens/github.svg" alt="icone github" class="ver cartao_projeto-github">
+                </a>               
+                
+                <ul class="cartão__lista">
+                    <li>MySQL - Banco de dados</li>
+                    <li>Java - POO</li>
+                    <li>Objetivo do sistema - Gestão de oficina mecânica</li>                  
+                </ul>
+            </article>
         </section>
-        
     </main>
-    <footer>
-        <img src="logo-branco.png" alt="Logo da Barbearia alura">
-        <p class="Copyright">&copy;Copyright Barbearia Alura 2022</p>
+    
+    <footer class="container__rodape">
+        <p class="rede_social">Redes sociais: </p>
+        <a href="https://github.com/AlysonTrizotto" target="_blanck" class="rede_social-github">
+            <img src="/assets/imagens/github.svg" alt="Ícone Github" class="rede_social-icon-github">
+        </a>
+        <a href="https://www.linkedin.com/in/alyson-pereira-a16022193/" target="_blanck" class="rede_social-linkedin">
+            <img src="/assets/imagens/LinkedIn.svg" alt="Ícone LinkedIn" class="rede_social-icon-linkedin">
+        </a>
+
+        <address class="container__endereco">
+            <p>São José dos Pinhais - Paraná
+                <article class="institucional__contato">
+                    <p><a href="tel:+5541987438065" class="institucional__contato-telefone">
+                        Telefone: (41) 9 8743-8065
+                    </a>
+                     ou 
+                     <a href="mailto:contato@apeperia.com" class="institucional__contato-email">
+                        E-mail: alysontrizotto1@gmail.com</a>
+                    </p>
+                </article>
+            </p>
+        </address>
     </footer>
+
+    <script src="/js/index.js"></script>
 </body>
 </html>

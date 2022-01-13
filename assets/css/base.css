@@ -1,0 +1,29 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--tamanho_fonte);
+    font-weight: var(--peso-fonte);
+    
+}
+
+.titulo{
+    font-size: var(--tamanho-titulo);
+}
+
+.titulo__destaque{
+    font-size: var(--tamanho-titulo-destaque);
+}
+
+.texto{
+    line-height: 26px;
+}
+
+.alinhamento-esqueda{
+    text-align: left;
+}
+
+.alinhamento-central{
+    text-align: center;
+}

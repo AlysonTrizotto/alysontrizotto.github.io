@@ -1,0 +1,124 @@
+.container__cartao{
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    background-color: var(--cinza-medio);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    max-width:100%;
+}
+
+.cartao{
+    margin-bottom: 3rem;
+    border-radius: 20px;
+    
+    max-height: 70vh;
+    max-width: 70vw;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+   
+    align-items: center; 
+    
+    background-color: var(--bg-cartao);  
+}
+.container__titulo{
+    padding-top: 2.3rem;
+    font-weight: var(--peso-fonte-destaque);
+    font-size: var(--tamanho-titulo-destque);
+    color: var(--fonte-preta);
+    display: block;
+    
+}
+
+.container__texto{
+    line-height: 1.2rem;
+    
+    color: var(--fonte-cinza);
+    
+    font-size: var(--tamanho-fonte-container);
+    font-weight: var(--peso-fonte);
+    
+    padding-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+
+    text-align: justify;    
+}   
+
+.cartao__titulo{
+    padding-top: 1rem;
+
+    font-size: var(--tamanho-titulo);
+    font-weight: var(--peso-fonte-destaque);
+
+    color: var(--fonte-preta);
+    display: block;
+    grid-column: span 2;
+    grid-row: span 1;
+    
+}
+
+.cartao_ver-projeto{
+    padding-top: 1rem;
+
+    font-size: var(--tamanho_fonte);
+    font-weight: var(--peso-fonte);
+
+    color: var(--fonte-cinza-escuro);
+    
+    display: inline;
+
+    grid-column: span 2;
+    
+    align-self: flex-start;
+
+    justify-self: auto;
+}
+
+.cartao_projeto-github{
+    width: 2rem;
+    display: inline-block;
+    padding-left: 5%;
+    margin: 0;
+    
+    grid-column: auto;
+
+    justify-self: auto;
+    align-self: flex-end;
+}
+
+/*
+.cartao_ver-projeto:hover{
+    color: var(--cartao-link);
+    transition: 1s;
+}*/
+
+.cartao__texto{
+    padding-top: 1rem;
+
+    font-size: var(--tamanho_fonte);
+    font-weight: var(--peso-fonte);
+
+    color: var(--fonte-cinza-escuro);
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.cartão__lista{
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-bottom: .5rem;
+
+    font-weight: var(--peso-fonte-normal);
+    font-size: var(--tamanho_fonte);
+
+    text-decoration: none;
+
+    grid-column: span 2;
+    grid-row: span 1;
+}

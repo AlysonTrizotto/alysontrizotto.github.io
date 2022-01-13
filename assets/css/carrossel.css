@@ -1,0 +1,39 @@
+
+.container__carrosel-1{
+    max-width: 100%;
+    max-height: 11rem;
+}
+
+.wall{
+    display: none;
+    width: 97%;
+    height: 100%;
+
+    align-items: center;  
+    
+    justify-content: space-between; 
+}
+
+.wall-1>h3{
+    background-color: #f00;
+}
+
+.carrosel__voltar{
+    display: inline;
+}
+.carrosel__avancar{
+    display: inline-block;
+    left: 95vw;
+}
+
+.wall-2>h3{
+    background-color: #0f0;
+}
+
+.wall-3>h3{
+    background-color: #00f;
+}
+
+.wall:target{
+    display: block;
+}
