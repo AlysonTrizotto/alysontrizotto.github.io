@@ -10,13 +10,13 @@ header{
  
 .caixa{
     position: relative;
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
 }
 nav{
     position: absolute;
     top: 110px;
-    right: 0px;
+    right: 20px;
 }
 
 nav li{
@@ -48,6 +48,7 @@ nav :hover{
     margin: 0 20px 20px 0;
     opacity: 0.3;
     transition: 1s;
+    margin-left: 14%;
 }
 
 .utensilios:hover{
@@ -58,7 +59,7 @@ nav :hover{
 .Principal{
     padding: 3em 0;
     background: #fefefe;
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -81,6 +82,8 @@ nav :hover{
     margin: 0 0 1em;/*em é o valor do pixel*/
     font-size: 18px;
     text-indent: 50px;
+    
+    margin-right: 13%;
 }
 
 .Principal strong{
@@ -99,19 +102,22 @@ nav :hover{
 }
 /*Abaixo do titulo*/
 .Conteudo-Beneficios{
-    width: 640px;
+    width: 90%;
     margin: 0 auto;  
-    width: 940px;
-    margin: 0 auto; 
+    margin: 0 auto;
+    left: 100px;
+    right: 10%; 
 }
 /*Listas*/
 .Lista-Beneficios{
     font-style: italic;
     font-size: 20px;
-    width: 40%;
+    width: 30%;
     display: inline-block;
     vertical-align: top;
     font: linear;
+    
+    margin-left: 10%;
 }
 
 .itens:hover{
@@ -128,10 +134,11 @@ nav :hover{
 
 /*imagem*/
 .Imagem-Beneficios {
-	width: 60%;
+	width: 50%;
     opacity: 0.3;
     transition: 1s;
     box-shadow: 10px 10px 20px #000000;
+    
 }
 
 .Imagem-Beneficios:hover{
@@ -157,8 +164,10 @@ nav :hover{
 }
 
 .Mapa-conteudo{
-    width: 940px;
-    margin: 0 auto; 
+    width: 73%;
+    margin: 0; 
+    margin-left: 14%;    
+    margin-right: 13%;
 }
 /*Topico roda-pé*/
 footer{
