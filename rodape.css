@@ -4,7 +4,7 @@
 .container__rodape{
     width: 100%;
 
-    height: 27%;
+    height: 20rem;
 
     background-color: var(--bg-chamada-mobile);
     border-top: 4px solid var(--borda);
@@ -20,13 +20,12 @@
 .rede_social-github{
     grid-column: 1 / span 1;
     grid-row: 2;
-    padding-left: 35%;
+    padding-left: 25%;
 
 }
 .rede_social-linkedin{
     grid-column: 2 / span 1;
     grid-row: 2;
-    padding-left: 15%;
 }
 .rede_social-icon-github{
     width: 5rem;
@@ -36,7 +35,7 @@
 }
 
 .rede_social{
-    color: var(--fonte-cinza);
+    color: var(--fonte-preto);
     
     font-size: var(--tamanho-fonte-container);
     font-weight: var(--peso-fonte);
@@ -44,3 +43,4 @@
     display: block;
     padding-left: 30%;
 }
+

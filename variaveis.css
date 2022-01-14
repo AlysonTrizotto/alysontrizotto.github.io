@@ -2,18 +2,15 @@
 
 :root{
     --branco: #FFF;
-    --azul-claro: #DFE3E5;
-    --vermelho-forte: #B72E2E;
     --cinza-escuro: #4F4C4C;
     --cinza-claro: #F7F4F4;
     --cinza-medio: #D9D9D9;
         
-    --fonte-link: #0084FF;
     --fonte-cinza: #666;
     --fonte-preta: #1a1919;
-    --borda: #136880;
+    --borda: #001d25;
     --bg-cartao: rgb(175, 176, 179);
-    --bg-chamada-mobile: #00161C;
+    --bg-chamada-mobile: #005066;
 
     --cartao-link: #142f38;
     ---cartao-ultra: #B04CD9;
@@ -30,7 +27,7 @@
     --cor-fonte-corpo: #909090;
     --fonte-cinza-escuro: #222222;
 
-    --peso-fonte: 700;
+    --peso-fonte: 400;
     --peso-fonte-destaque: 900;
     --peso-fonte-normal:400;
 }

@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
      
-    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="cabecalho.css">
     <link rel="stylesheet" href="cartao.css">
@@ -23,16 +22,16 @@
        
         <nav class="menu_lateral menu_lateral-posicao">
             <ul>                
-                <li class="titulo__lista-nav menu_lateral__link menu_lateral--ativo">Problemas Solucionados</li>
-                <li class="titulo__lista-nav menu_lateral__link">Sobre</li>
-                <li class="titulo__lista-nav menu_lateral__link">Contato</li>
+                <li ><a href="#projetos" class="titulo__lista-nav menu_lateral__link menu_lateral--ativo">Problemas Solucionados</a> </li>
+                <li><a href="#" class="titulo__lista-nav menu_lateral__link"> Sobre </a></li>
+                <li ><a href="#contato" class="titulo__lista-nav menu_lateral__link">Contato</a> </li>
             </ul>
             
         </nav>        
     </header>
     
     <main>
-        <section class="container__cartao">
+        <section class="container__cartao" id="projetos">
             <h1 class="container__titulo">Projetos e soluções</h1>
             <p class="container__texto">
                 Aqui contem alguns projetos que desenvolvi. 
@@ -44,7 +43,6 @@
                 <p class="cartao__texto">Como foi feito - Oque contém:</p>
                 
                 <a href="https://github.com/AlysonTrizotto/AlysonTrizotto" target="_blank"  class="cartao_ver-projeto ver">
-                    Ver projeto no github 
                     <img src="github.svg" alt="Ícone Github" class="ver cartao_projeto-github">
                 </a>               
                 
@@ -62,8 +60,7 @@
                 <p class="cartao__texto">Como foi feito - Oque contém:</p>
                 
                 <a href="https://github.com/AlysonTrizotto/ExtratorTextoPDF_ConversorCSV/tree/main/Extracao" target="_blank"  class="cartao_ver-projeto ver">
-                    Ver projeto no github 
-                    <img src="github.svg" alt="Ícone Github" class="ver cartao_projeto-github">
+                 <img src="github.svg" alt="Ícone Github" class="ver cartao_projeto-github">
                 </a>               
                 
                 <ul class="cartão__lista">
@@ -83,8 +80,7 @@
                 <p class="cartao__texto">Como foi feito - Oque contém:</p>
                 
                 <a href="https://github.com/AlysonTrizotto/ExtratorTextoPDF_ConversorCSV/tree/main/PostgreSQL" target="_blank"  class="cartao_ver-projeto ver">
-                    Ver projeto no github 
-                    <img src="github.svg" alt="icone github" class="ver cartao_projeto-github">
+                  <img src="github.svg" alt="icone github" class="ver cartao_projeto-github">
                 </a>               
                 
                 <ul class="cartão__lista">
@@ -96,14 +92,13 @@
                 </ul>
             </article>
             <article class="cartao">
-                <h2 class="cartao__titulo">Em construção</h2>
+                <h2 class="cartao__titulo">Executando ...</h2>
                 <p class="cartao__texto">Como foi feito - Oque contém:</p>
                 
                 <a href="https://github.com/AlysonTrizotto/GerenciaOficinaMecanica/tree/main/Gerencia%20Oficina/GerenciaOficina" target="_blank"  class="cartao_ver-projeto ver">
-                    Ver projeto no github 
-                    <img src="github.svg" alt="icone github" class="ver cartao_projeto-github">
+                 <img src="github.svg" alt="icone github" class="ver cartao_projeto-github">                   
                 </a>               
-                
+               
                 <ul class="cartão__lista">
                     <li>MySQL - Banco de dados</li>
                     <li>Java - POO</li>
@@ -122,14 +117,14 @@
             <img src="LinkedIn.svg" alt="Ícone LinkedIn" class="rede_social-icon-linkedin">
         </a>
 
-        <address class="container__endereco">
+        <address class="container__endereco" id="contato">
             <p>São José dos Pinhais - Paraná
-                <article class="institucional__contato">
-                    <p><a href="tel:+5541987438065" class="institucional__contato-telefone">
+                <article class="endereco__contato">
+                    <p><a href="tel:+5541987438065" class="endereco__contato-telefone">
                         Telefone: (41) 9 8743-8065
                     </a>
                      ou 
-                     <a href="mailto:contato@apeperia.com" class="institucional__contato-email">
+                     <a href="mailto:contato@apeperia.com" class="endereco__contato-email">
                         E-mail: alysontrizotto1@gmail.com</a>
                     </p>
                 </article>
@@ -138,5 +133,6 @@
     </footer>
 
     <script src="index.js"></script>
+    <script src="scroll.js"></script>
 </body>
 </html>
