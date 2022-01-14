@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .container__cartao{
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);
