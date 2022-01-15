@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-/*
-@import url("variaveis.css");
-*/
 .container__cartao{
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);
@@ -101,11 +98,6 @@
     align-self: flex-end;
 }
 
-/*
-.cartao_ver-projeto:hover{
-    color: var(--cartao-link);
-    transition: 1s;
-}*/
 
 .cartao__texto{
     padding-top: 1rem;
@@ -119,6 +111,8 @@
     grid-row: span 1;
     padding-left: 2rem;
     padding-right: 2rem;
+
+   
 }
 
 .cartão__lista{
@@ -138,4 +132,6 @@
     padding-bottom: 2rem;
 
     color: var(--cor-texto-lista-cartao);
+
+    line-height: 1.8rem;
 }

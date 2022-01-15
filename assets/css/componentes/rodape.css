@@ -1,37 +1,21 @@
 @charset "UTF-8";
-/*
-@import url("variaveis.css");*/
 
 .container__rodape{
     width: 100%;
 
-    height: 11rem;
+    max-height: 25rem;
 
     background-color: var(--bg-chamada-mobile);
     border-top: 4px solid var(--borda);
     
-    display: grid;
+    display: block;
     
     align-items: center;
-    justify-items: center;
-
-    grid-template-columns:  1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;       
     
     margin-top: 5rem;
 }
 
-.rede_social-github{
-   /* grid-column: 1 / span 2;
-    grid-row: 2;
-    display: inline;*/
-}
-.rede_social-linkedin{
-   /* grid-column: 2 / span 2;
-    grid-row: 2;
-    display: inline-block;
-    padding-left: 10rem;*/
-}
 .rede_social-icon-github{
     width: 5rem;
 }
@@ -44,28 +28,32 @@
 }
 
 .rede_social{
-    /*color: var(--fonte-preto);
-    
-    font-size: var(--tamanho-fonte-container);
-    font-weight: var(--peso-fonte);
+    align-items: center;
+    justify-content: center;
 
-    grid-column: 1 / span 2;
-    grid-row: 1;*/
     margin-top: 2rem;
     display: flex;
 }
 
+.container__endereco{
+    display: block;
+
+    flex-direction: column;
+
+    padding-top: 2rem;
+    text-align: center;
+    line-height: 1.8rem;
+}
 .endereco{
-    grid-column: 1 / span 2;
-    grid-row: 3;
+    display: block;
 }
 
 .endereco__contato-telefone{
-    grid-column: 1 / span 2;
-    grid-row: 4;
+   display: block;
+   color: var(--cor-fonte-corpo);
 }
 
 .endereco__contato-email{
-    grid-column: 1 / span 2;
-    grid-row: 5;
-}
+    display: block;
+    color: var(--cor-fonte-corpo);
+    padding-bottom: 2rem;
