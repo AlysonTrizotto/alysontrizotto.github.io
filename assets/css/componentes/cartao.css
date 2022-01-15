@@ -1,5 +1,8 @@
 @charset "UTF-8";
+
+/*
 @import url("variaveis.css");
+*/
 .container__cartao{
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);
