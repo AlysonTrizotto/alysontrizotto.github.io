@@ -31,3 +31,19 @@ body{
 .alinhamento-central{
     text-align: center;
 }
+
+
+.foto__pessoal{
+    padding-top: 20vh;
+    background-image: url("../imagens/IMG_20211013_152658.jpg");
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 80vh;
+    width: 100%;
+
+
+}

@@ -5,7 +5,6 @@
     width: 100%;
 
     max-height: 20vh;
-    max-width:100%;
     
     background-color: var(--bg-chamada-mobile);
     border-bottom: 4px solid var(--borda);
@@ -14,10 +13,12 @@
     
     align-items: center;
     flex-direction: row;
-    
     margin-bottom: 5rem;
     
     justify-content: space-between;
+
+    position: fixed;
+    margin-top: 0px !important;
 }
 
 .menu_pontilhado{    
@@ -35,3 +36,4 @@
 
     box-sizing: border-box;
 }
+
