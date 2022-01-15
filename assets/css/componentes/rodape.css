@@ -22,15 +22,15 @@
 }
 
 .rede_social-github{
-    grid-column: 1 / span 2;
+   /* grid-column: 1 / span 2;
     grid-row: 2;
-    display: inline;
+    display: inline;*/
 }
 .rede_social-linkedin{
-    grid-column: 2 / span 2;
+   /* grid-column: 2 / span 2;
     grid-row: 2;
     display: inline-block;
-    padding-left: 10rem;
+    padding-left: 10rem;*/
 }
 .rede_social-icon-github{
     width: 5rem;
@@ -39,16 +39,20 @@
     width: 4rem;
 }
 
+.rede__social-media{
+    display: inline-block;
+}
+
 .rede_social{
-    color: var(--fonte-preto);
+    /*color: var(--fonte-preto);
     
     font-size: var(--tamanho-fonte-container);
     font-weight: var(--peso-fonte);
 
     grid-column: 1 / span 2;
-    grid-row: 1;
-    
-    display: block;
+    grid-row: 1;*/
+    margin-top: 2rem;
+    display: flex;
 }
 
 .endereco{

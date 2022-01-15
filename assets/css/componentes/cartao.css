@@ -18,9 +18,10 @@
 .cartao{
     margin-bottom: 3rem;
     border-radius: 20px;
+    border: 2px solid var(--borda);
     
-    max-height: 70vh;
-    max-width: 70vw;
+    max-height: 90vh;
+    max-width: 85vw;
 
     display: grid;
 
@@ -61,10 +62,12 @@
     font-size: var(--tamanho-titulo);
     font-weight: var(--peso-fonte-destaque);
 
-    color: var(--fonte-preta);
+    color: var(--cor-texto-titulo-cartao);
     display: block;
     grid-column: span 2;
     grid-row: span 1;
+    padding-left: 2rem;
+    padding-right: 2rem;
     
 }
 
@@ -73,7 +76,7 @@
     font-size: var(--tamanho_fonte);
     font-weight: var(--peso-fonte);
 
-    color: var(--fonte-cinza-escuro);
+    color: var(--cor-texto-link-cartao);
     
     display: inline;
 
@@ -82,6 +85,8 @@
     align-self: flex-start;
 
     justify-self: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .cartao_projeto-github{
@@ -108,9 +113,12 @@
     font-size: var(--tamanho_fonte);
     font-weight: var(--peso-fonte);
 
-    color: var(--fonte-cinza-escuro);
+    color: var(--cor-texto-link-cartao);
+
     grid-column: span 2;
     grid-row: span 1;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .cartão__lista{
@@ -125,4 +133,9 @@
 
     grid-column: span 2;
     grid-row: span 1;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+
+    color: var(--cor-texto-lista-cartao);
 }

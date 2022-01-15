@@ -6,10 +6,10 @@
     --cinza-claro: #F7F4F4;
     --cinza-medio: #D9D9D9;
         
-    --fonte-cinza: #666;
+    --fonte-cinza: rgba(3, 3, 3, 0.747);
     --fonte-preta: #1a1919;
     --borda: #001d25;
-    --bg-cartao: rgb(175, 176, 179);
+    --bg-cartao: rgba(3, 3, 3, 0.747);
     --bg-chamada-mobile: #005066;
 
     --cartao-link: #142f38;
@@ -30,4 +30,8 @@
     --peso-fonte: 400;
     --peso-fonte-destaque: 900;
     --peso-fonte-normal:400;
+
+    --cor-texto-lista-cartao:  rgb(175, 176, 179);
+    --cor-texto-link-cartao: rgb(153, 153, 153);
+    --cor-texto-titulo-cartao: #ffffff;
 }

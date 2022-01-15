@@ -8,7 +8,7 @@
 .container{
     width: 100%;
 
-    height: 7vh;
+    height: 10vh;
     max-width:100%;
     
     background-color: var(--bg-chamada-mobile);
@@ -20,11 +20,13 @@
     flex-direction: row;
     
     margin-bottom: 5rem;
+    
+    justify-content: space-between;
 }
 
-.menu_pontilhado{
-    
+.menu_pontilhado{    
     width: 3rem;
+    padding-left: .7rem;
 }
 
 
@@ -33,18 +35,7 @@
     display: block;
     color: var(--branco);
     
-    margin-left: 0px;
-    padding-left: 5rem;
-    
-    box-sizing: border-box;
-}
-@media screen and (min-width: 380px) {
-    .titulo__cabecalho{
-        color: var(--azul-claro);
-        grid-area: "titulo";
-    
-        padding-top: 3rem;
-    }
-    
+    padding-right: 5%;
 
+    box-sizing: border-box;
 }
