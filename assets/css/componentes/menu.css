@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .menu_lateral{
     display: block;
     flex-direction: column;
@@ -25,7 +27,13 @@
     padding-left: 20px;
     display: flex;
     align-items: center;
+    transition: 1s;
+    text-decoration: none;
+   
+
 }
+
+
 
 .menu_lateral__link--ativo{
     color:#FFFFFF ;

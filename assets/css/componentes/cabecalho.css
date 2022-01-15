@@ -1,8 +1,7 @@
-@import url(_menu.css);
-@font-face {
-    font-family: 'icones';
-    src: url(../../font/icones.ttf);
-}
+@charset "UTF-8";
+@import url("menu.css");
+@import url("variaveis.css");
+
 
 .container{
     width: 100%;

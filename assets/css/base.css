@@ -1,5 +1,6 @@
-@import url(_reset.css);
-@import url(_variaveis.css);
+@charset "UTF-8";
+@import url("reset.css");
+@import url("variaveis.css");
 
 body{
     font-family: 'Open Sans', sans-serif;

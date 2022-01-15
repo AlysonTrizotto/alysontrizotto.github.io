@@ -1,7 +1,10 @@
+@charset "UTF-8";
+@import url("variaveis.css");
+
 .container__rodape{
     width: 100%;
 
-    height: 27%;
+    height: 11rem;
 
     background-color: var(--bg-chamada-mobile);
     border-top: 4px solid var(--borda);
@@ -9,21 +12,24 @@
     display: grid;
     
     align-items: center;
-    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     
     margin-top: 5rem;
 }
 
 .rede_social-github{
-    grid-column: 1 / span 1;
+    grid-column: 1 / span 2;
     grid-row: 2;
-    padding-left: 35%;
-
+    display: inline;
 }
 .rede_social-linkedin{
-    grid-column: 2 / span 1;
+    grid-column: 2 / span 2;
     grid-row: 2;
-    padding-left: 15%;
+    display: inline-block;
+    padding-left: 10rem;
 }
 .rede_social-icon-github{
     width: 5rem;
@@ -33,11 +39,28 @@
 }
 
 .rede_social{
-    color: var(--fonte-cinza);
+    color: var(--fonte-preto);
     
     font-size: var(--tamanho-fonte-container);
     font-weight: var(--peso-fonte);
-    grid-column: span 2;
+
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    
     display: block;
-    padding-left: 30%;
+}
+
+.endereco{
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+.endereco__contato-telefone{
+    grid-column: 1 / span 2;
+    grid-row: 4;
+}
+
+.endereco__contato-email{
+    grid-column: 1 / span 2;
+    grid-row: 5;
 }
