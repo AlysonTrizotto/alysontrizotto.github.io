@@ -43,16 +43,54 @@
 }
 
 .sobre__titulo{
+    padding-top: 2.5rem;
+    text-transform: uppercase;
+    color: var(--cor-strong);
+    padding-top: 2.3rem;
+    font-weight: var(--peso-fonte);
+    font-size: var(--tamanho-titulo);
+    display: block;
     line-height: 1.8rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+
 }
 
 
-    
-    
 .minha__foto{
     width: 5rem;
     border-radius: 50px ;
     
+}
+.sobre__perfil{
+    padding-top: 2.5rem;
+    text-transform: uppercase;
+    color: var(--cor-strong);
+    padding-top: 2.3rem;
+    font-weight: var(--peso-fonte);
+    font-size: var(--tamanho-titulo);
+    display: block;
+}
+
+.lista{
+    display: block;
+    line-height: 1.4;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+}
+.item{
+    display: block;
+    
+    color: var(--cor-strong);
+    padding-top: 2rem;
+    font-weight: var(--peso-fonte);
+    font-size: 1.2rem;
+    border-bottom: 1px solid var(--borda);
+}
+.sub-item{
+    font-size: 1rem;
+    display: block;
+    color: var(--fonte-cinza);
 }
