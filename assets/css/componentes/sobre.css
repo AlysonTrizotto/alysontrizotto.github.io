@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+.sobre__espacamento{
+    padding-top: 5rem;
+    border-bottom: 2px solid var(--borda);
+}
+
+.secao_sobre{
+   
+    background-color: var(--backgorund-sobre);
+    border-bottom: 2px solid var(--borda);
+
+
+    text-align: center;
+}
+
+.sobre{
+    padding-top: 2.5rem;
+    text-transform: uppercase;
+    color: var(--cor-strong);
+    padding-top: 2.3rem;
+    font-weight: var(--peso-fonte-destaque);
+    font-size: var(--tamanho-titulo-destque);
+    display: block;
+}
+
+.sobre__texto{
+    line-height: 1.8rem;
+    
+    color: var(--fonte-cinza);
+    
+    font-size: var(--tamanho-fonte-container);
+    font-weight: var(--peso-fonte);
+    
+    padding-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+
+    box-sizing: border-box;
+
+    text-align: justify; 
+}
+
+.sobre__titulo{
+    line-height: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+    
+    
+.minha__foto{
+    width: 5rem;
+    border-radius: 50px ;
+    
+}

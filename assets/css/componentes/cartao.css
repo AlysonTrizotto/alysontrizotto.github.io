@@ -34,7 +34,7 @@
     padding-top: 2.3rem;
     font-weight: var(--peso-fonte-destaque);
     font-size: var(--tamanho-titulo-destque);
-    color: var(--fonte-preta);
+    color: var(--cor-strong);
     display: block;
     
 }
@@ -51,6 +51,8 @@
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 3rem;
+
+    box-sizing: border-box;
 
     text-align: justify;    
 }   

@@ -12,6 +12,10 @@ body{
     
 }
 
+strong{
+    font-weight: var(--peso-fonte-destaque);
+}
+
 .titulo{
     font-size: var(--tamanho-titulo);
 }
@@ -34,7 +38,7 @@ body{
 
 
 .foto__pessoal{
-    padding-top: 20vh;
+    padding-top: 50px;
     background-image: url("../imagens/IMG_20211013_152658.jpg");
     
     background-repeat: no-repeat;
@@ -42,8 +46,6 @@ body{
     background-size: cover;
     background-attachment: fixed;
 
-    height: 80vh;
+    height: 100vh;
     width: 100%;
-
-
 }

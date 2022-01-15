@@ -12,9 +12,7 @@
     --bg-cartao: rgba(3, 3, 3, 0.747);
     --bg-chamada-mobile: #005066;
 
-    --cartao-link: #142f38;
-    ---cartao-ultra: #B04CD9;
-    --cartao-mega: #E33B3B;
+    --backgorund-sobre: #e7e7e7f6;
 
     --montserrat: 'Montserrat', sans-serif;
 
@@ -34,4 +32,6 @@
     --cor-texto-lista-cartao:  rgb(175, 176, 179);
     --cor-texto-link-cartao: rgb(153, 153, 153);
     --cor-texto-titulo-cartao: #ffffff;
+
+    --cor-strong: #03566d;;
 }
