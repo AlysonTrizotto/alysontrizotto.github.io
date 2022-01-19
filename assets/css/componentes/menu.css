@@ -12,9 +12,9 @@
     left: -100vw;
     top: 51px;
 
-    transition: 1s;    
-
+    transition: 1s;  
     
+    z-index: 99;
 }
 
 .menu_lateral--ativo{
@@ -25,7 +25,7 @@
 
 .menu_lateral__link{
     height: 40px;
-    color: #254053;
+    color: #03566d;
     padding-left: 20px;
     padding-right: 20px;
 
@@ -49,4 +49,26 @@
     font-size: 24px;
     position: absolute;
     left: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .menu_lateral{
+        
+        width: 100%;
+        left: 0;
+        height: 3rem;
+        display: flex;
+        top: 3rem;
+    
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .menu-li{
+        display: inline-flex;
+    }
+    .menu-li:hover{
+        border-bottom: 3px solid #FFFFFF;
+        transition: .5s;
+    }
 }

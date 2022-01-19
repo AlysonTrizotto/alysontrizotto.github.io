@@ -17,9 +17,11 @@
     --montserrat: 'Montserrat', sans-serif;
 
     --tamanho_fonte: 1.2rem;
-    --tamanho-titulo: 1.7rem;
+    --tamanho-titulo: 1.4rem;
     --tamanho-titulo-destque: 2rem;
     --tamanho-fonte-container : 1.2rem;
+
+    --tamanho-titulo-desk : 9rem;
 
     --cor-fonte-cabecalho: #FFFFFF;
     --cor-fonte-corpo: #909090;

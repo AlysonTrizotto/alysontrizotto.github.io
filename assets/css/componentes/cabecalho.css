@@ -21,6 +21,28 @@
     margin-top: 0px !important;
 }
 
+@media screen and (min-width: 768px){
+    .menu_pontilhado{
+        display: none;      
+    }
+
+    .titulo__cabecalho{
+        padding-top: 1rem;
+
+        font-size: var(--tamanho-titulo-desk);
+
+    }
+    .container{        
+        display: flex;
+
+
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+
+    }
+}
+
 .menu_pontilhado{    
     width: 3rem;
     padding-left: .7rem;
@@ -28,7 +50,8 @@
 
 
 .titulo__cabecalho{
-    font-size: 1.3rem;
+    
+    font-size: var(--tamanho-titulo-destque);
     display: block;
     color: var(--branco);
     

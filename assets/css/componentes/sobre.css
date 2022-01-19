@@ -99,6 +99,8 @@
     height: 5px;
     background-color: #CCC;
     position: relative;
+    z-index: 1;
+
 }
 .container_evolucao .evolucao__barra-desktop{
    position: absolute;
@@ -153,4 +155,50 @@
     padding-bottom: 3rem;
 
     text-align: left;
+}
+
+@media screen and (min-width: 768px){
+.secao_sobre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.sobre{
+   grid-column: 1 / span 2;
+}
+
+.sobre__titulo{
+    grid-column: 1 / span 2;
+}
+
+
+.minha__foto{
+    grid-column: 1 / span 2;
+}
+.sobre__ajuste-responsivo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
+}
+.sobre__perfil{
+    grid-column: 1 / span 2;
+}
+
+.lista{
+    grid-column: 1 / span 1;
+}
+.item{
+    grid-column: 1 / span 2;
+}
+.sobre__texto{
+    grid-column: 1 / span 2;
+}
 }
