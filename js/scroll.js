@@ -11,7 +11,7 @@ menuItem.forEach(item =>{
 //passando para a smoothScrollTo
 function scrollToIdOnClick(event){
     event.preventDefault();   
-    const to = getScrolltopbyHref(event.target)  -30;
+    const to = getScrolltopbyHref(event.target)  -60;
     scrollToPosition(to);
 }
 

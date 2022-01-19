@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AlysonTrizotto/alysontrizotto.github.io#readme",
   "dependencies": {
-    "nodemailer": "^6.7.2"
+    "nodemailer": "^6.7.2",
+    "nodemailer-express-handlebars": "^4.0.0"
   }
 }
