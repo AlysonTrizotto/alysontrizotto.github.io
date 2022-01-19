@@ -94,12 +94,13 @@
     
     .cartao{
         margin-bottom: 3rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
         border-radius: 20px;
 
         max-height: 190vh;
-        max-width: 85vw;    
+        width: 90%;   
+        box-sizing:border-box; 
      }
     .container__titulo{
         grid-column: 1 / span 2;

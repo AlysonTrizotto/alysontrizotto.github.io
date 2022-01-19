@@ -8,13 +8,13 @@
     max-width: 100vw;
     height: 100vh;
 
-    position: absolute;
+    position: fixed;
     left: -100vw;
     top: 51px;
 
     transition: 1s;  
     
-    z-index: 99;
+    z-index: 99 !important;
 }
 
 .menu_lateral--ativo{
