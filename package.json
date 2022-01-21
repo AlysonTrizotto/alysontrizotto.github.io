@@ -1,23 +1,15 @@
 {
-  "name": "alysontrizotto.github.io",
+  "name": "teste",
   "version": "1.0.0",
-  "description": "You can use the [editor on GitHub](https://github.com/AlysonTrizotto/alysontrizotto.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AlysonTrizotto/alysontrizotto.github.io.git"
-  },
-  "author": "",
+  "author": "Alyson",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AlysonTrizotto/alysontrizotto.github.io/issues"
-  },
-  "homepage": "https://github.com/AlysonTrizotto/alysontrizotto.github.io#readme",
   "dependencies": {
-    "nodemailer": "^6.7.2",
-    "nodemailer-express-handlebars": "^4.0.0"
+    "express": "^4.17.2",
+    "nodemailer": "^6.7.2"
   }
 }

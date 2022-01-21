@@ -81,6 +81,7 @@
     .container__cartao{
         padding-left: 3rem;
         padding-right: 3rem;
+        margin-top: 40px;
     
         display: grid;
         grid-template-columns: 1fr 1fr;

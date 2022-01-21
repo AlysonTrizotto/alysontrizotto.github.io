@@ -39,7 +39,7 @@ strong{
 
 .foto__pessoal{
     
-    padding-top: 100vh;
+    padding-top: 90vh;
     background-image: url("../imagens/IMG_20211013_152658.jpg");
     
     background-repeat: no-repeat;
@@ -51,6 +51,8 @@ strong{
 
 @media screen and (min-width: 768px){
     .foto__pessoal{
-        background-image: url('../imagens/FUndo\ Canva.png');
+        
+        transform: translateY(60px);
+        background-image: url("../imagens/IMG_20211013_152658.jpg");
     }
 }
